@@ -66,7 +66,7 @@ def bus2(connection, cur):
 def main():
 
     connection = mysql.connector.connect(
-        host="localhost",
+        host="localhost", #127.0.0.1
         user="root",
         password="",
         database="busbooking"
